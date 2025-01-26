@@ -1,0 +1,12 @@
+.git
+.gitignore
+.travis.yml
+/examples
+/node_modules
+.je-project-settings
+.flowconfig
+.sublime-project
+package-lock.json
+docker-entrypoint.sh
+docker-compose.yml
+Dockerfile

@@ -1,0 +1,26 @@
+{
+  "name": "axios2",
+  "version": "1.0.0",
+  "description": "Official Server API Client for Node JS",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsPikzy/axios2.git"
+  },
+  "homepage": "https://github.com/ItsPikzy/axios2",
+  "bugs": {
+    "url": "https://github.com/ItsPikzy/axios2/issues"
+  },
+  "keywords": [
+    "api",
+    "axios",
+    "node"
+  ],
+  "author": "admin@rmtid.xyz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "lodash": "^4.17.21"
+  }
+}
