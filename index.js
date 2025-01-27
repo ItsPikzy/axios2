@@ -1,5 +1,6 @@
 'use strict'
 
+const { URL } = require('url');
 const version = require('./package.json').version;
 const HttpClient = require('./lib/httpClient');
 const ORIGINAL_URL = 'http://localhost:4976';
