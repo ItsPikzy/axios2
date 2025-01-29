@@ -2,11 +2,11 @@
 
 const WebSocket = require('ws');
 const EventEmitter = require('node:events');
-const PacketHandlers = require('./handlers');
-const { FantasyError, ErrorCodes } = require('../../errors');
-const APIUrl = require('../../util/APIUrl');
-const Events = require('../../util/Events');
-const Status = require('../../util/Status');
+const PacketHandlers = require('./handlers.js');
+const { FantasyError, ErrorCodes } = require('../../errors.js');
+const APIUrl = require('../../util/APIUrl.js');
+const Events = require('../../util/Events.js');
+const Status = require('../../util/Status.js');
 
 /**
  * The WebSocket manager for this client.
